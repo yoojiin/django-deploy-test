@@ -2,7 +2,96 @@
 <html>
   <head>
     <title>Mid-Term-Project</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        @font-face {
+            font-family: "font_default";
+            src: url("./font/AppleSDGothicNeoM.ttf");
+        }
+
+        @font-face {
+            font-family: "font_bold";
+            src: url("./font/AppleSDGothicNeoB.ttf");
+        }
+
+        @font-face {
+            font-family: "font_light";
+            src: url("./font/AppleSDGothicNeoL.ttf");
+        }
+
+        body {
+            font-family: "font_default";
+            margin: 20px;
+        }
+
+        .container {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: 1fr 2fr 1fr;
+
+            height: 450px;
+        }
+
+        .item {
+            height: 450px;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .name {
+            font-size: 2em;
+            font-family: "font_bold";
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .content {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            background-color: #fff;
+            border-top: 2px dotted #b6b6b6;
+        }
+
+        .title {
+            font-size: 1.2em;
+            font-weight: bold;
+            font-family: "font_bold";
+            color: #2db400;
+
+            margin-top: 25px;
+            margin-bottom: 5px;
+        }
+
+        .img_logo {
+            margin-left: 10%;
+            margin-top: 5px;
+            width: 80%;
+        }
+
+        .logo_under {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        .guide {
+            font-family: "font_light";
+            font-size: 0.5em;
+            color: #b6b6b6;
+        }
+
+        .title_f {
+            font-size: 1.2em;
+            font-family: "font_bold";
+
+            margin-top: 5px;
+        }
+    </style>
   </head>
   <body>
     <div class="container">
